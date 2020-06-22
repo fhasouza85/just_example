@@ -37,3 +37,4 @@ p <- ggplot(data, aes(x=as.factor(id), y=value)) +       # Note that id is a fac
   geom_text(data=label_data, aes(x=id, y=value+10, label=individual, hjust=hjust), color="black", fontface="bold",alpha=0.6, size=2.5, angle= label_data$angle, inherit.aes = FALSE ) 
  
 p
+
